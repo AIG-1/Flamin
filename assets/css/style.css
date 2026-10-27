@@ -183,3 +183,6 @@ footer a:hover{color:var(--gold)}
 .stars{color:var(--gold);font-size:20px;letter-spacing:2px}
 .stars span{color:#ffffff30}
 section[id]{scroll-margin-top:90px}
+.nav .wordmark{display:flex;flex-direction:column;line-height:.9}
+.nav .wordmark b{font-family:var(--display);font-weight:400;font-size:30px;letter-spacing:1.5px;color:#fff}
+.nav .wordmark small{font-family:var(--body);font-size:12px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-top:3px}
