@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Flamin Chicken &amp; Gyro | Halal Gyros, Hot Chicken &amp; Platters in Hazel Crest, IL</title>
+<meta name="description" content="Halal gyros, Nashville hot chicken, wings, platters, Phillies and waffles at 3951 W 183rd St, Hazel Crest, IL. Order online for pickup or delivery.">
+<meta property="og:title" content="Flamin Chicken &amp; Gyro | Halal Gyros, Hot Chicken &amp; Platters in Hazel Crest, IL"><meta property="og:image" content="/assets/img/logo.png"><meta name="theme-color" content="#0d0b0b">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" type="image/png" href="/assets/img/favicon-180.png"><link rel="apple-touch-icon" href="/assets/img/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Flamin Chicken & Gyro","servesCuisine":["Halal","Gyros","Chicken","Mediterranean"],"address":{"@type":"PostalAddress","streetAddress":"3951 W 183rd St","addressLocality":"Hazel Crest","addressRegion":"IL","postalCode":"60429","addressCountry":"US"},"openingHours":"Mo-Su 11:00-24:00","menu":"/menu.html","image":"/assets/img/logo.png"}</script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body class="home-page">
+<div class="bg"></div>
+<div class="announce" id="announce" hidden></div>
+<header><div class="nav">
+  <a class="brand" href="/"><img data-logo src="/assets/img/logo.png" alt="Flamin Chicken &amp; Gyro logo">Flamin</a>
+  <span class="status" data-status></span>
+  <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
+  <nav>
+    <a href="/" class="on">Home</a><a href="/menu.html" class="">Menu</a>
+    <a href="/#order">Order</a><a href="/#catering">Catering</a><a href="/#visit">Visit</a>
+  </nav>
+</div></header>
+
+<div class="hero"><div class="slider" id="slider" aria-label="Featured menu items"></div></div>
+
+<section class="intro">
+  <div>
+    <img class="logo-big" data-logo src="/assets/img/logo.png" alt="Flamin Chicken &amp; Gyro">
+    <div class="badges"><span class="badge" id="halal-badge">Halal</span><span class="badge">NYC Street Food</span><span class="badge">Philly Steak</span></div>
+  </div>
+  <div>
+    <h2 class="h">Hazel Crest's <span>hottest</span> new spot</h2>
+    <p class="sub">Gyros, platters, Nashville hot chicken, Phillies, wings and loaded waffles. Open daily.</p>
+    <div class="video" id="video"></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="h">Fan <span>favorites</span></h2>
+  <p class="sub">Tap any item's app to order it now.</p>
+  <div class="grid" id="featured"></div>
+  <p style="margin-top:22px"><a class="btn ghost" href="/menu.html">See the full menu</a></p>
+</section>
+
+<section id="order"><div class="order-strip">
+  <div><h2 class="h" style="margin:0">Order <span>now</span></h2><p class="sub" style="margin:6px 0 0">Pickup or delivery through your favorite app.</p></div>
+  <div class="btns" data-order-btns></div>
+</div></section>
+
+<section><h2 class="h">Today's <span>specials</span></h2><div class="specials" id="specials"></div></section>
+
+<section><h2 class="h">Photos &amp; <span>videos</span></h2><div class="gallery" id="gallery"></div></section>
+
+<section id="visit" class="visit">
+  <div class="panel">
+    <h2 class="h">Visit <span>us</span></h2>
+    <p id="addr" style="font-size:19px"></p>
+    <p style="margin:14px 0"><a class="btn" id="dir" target="_blank" rel="noopener">Get directions</a></p>
+    <ul class="hours" id="hours"></ul>
+  </div>
+  <div class="map"><iframe id="map" title="Map to Flamin Chicken &amp; Gyro" loading="lazy"></iframe></div>
+</section>
+
+<section id="catering"><div class="panel">
+  <h2 class="h">Catering &amp; <span>big orders</span></h2>
+  <p class="sub">Parties, offices, game day. Tell us what you need and we'll get back to you.</p>
+  <form class="cater" name="catering" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
+    <input type="hidden" name="form-name" value="catering"><p hidden><label>Company <input name="company"></label></p>
+    <label>Name<input name="name" required autocomplete="name"></label>
+    <label>Phone<input name="phone" type="tel" required autocomplete="tel"></label>
+    <label>Email<input name="email" type="email" autocomplete="email"></label>
+    <label>Date needed<input name="date" type="date"></label>
+    <label>Headcount<input name="headcount" type="number" min="1"></label>
+    <label>Pickup or delivery<select name="fulfillment"><option>Pickup</option><option>Delivery</option></select></label>
+    <label class="full">What would you like?<textarea name="details" rows="4"></textarea></label>
+    <p class="full" style="font-size:13px;color:var(--muted)">We only use your info to reply to this request. Please don't include payment details here.</p>
+    <button class="btn full" type="submit">Send request</button>
+  </form>
+</div></section>
+<footer><div class="in" id="footer-info"></div></footer>
+<script src="/assets/js/site.js"></script>
+<script>if(window.netlifyIdentity){netlifyIdentity.on("init",u=>{if(!u){netlifyIdentity.on("login",()=>{location.href="/admin/"})}})}</script>
+</body></html>

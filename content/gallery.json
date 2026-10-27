@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "type": "image",
+      "src": "/assets/img/menu/monster-platter.jpg",
+      "caption": "Monster Platter"
+    },
+    {
+      "type": "image",
+      "src": "/assets/img/menu/wings.jpg",
+      "caption": "Wings"
+    },
+    {
+      "type": "image",
+      "src": "/assets/img/menu/flamin-fries.jpg",
+      "caption": "Flamin' Fries"
+    },
+    {
+      "type": "image",
+      "src": "/assets/img/menu/waffles.jpg",
+      "caption": "Waffles"
+    },
+    {
+      "type": "image",
+      "src": "/assets/img/menu/flamin-hot-cheese-balls.jpg",
+      "caption": "Flamin' Hot Cheese Balls"
+    },
+    {
+      "type": "image",
+      "src": "/assets/img/menu/slushies.jpg",
+      "caption": "Slushies"
+    }
+  ]
+}

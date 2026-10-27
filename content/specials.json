@@ -1,0 +1,13 @@
+{
+  "specials": [
+    {
+      "title": "Grand Opening Special",
+      "text": "Ask about today's deal at the counter.",
+      "image": "",
+      "itemId": "",
+      "start": "2026-10-01",
+      "end": "2026-12-31",
+      "show": true
+    }
+  ]
+}

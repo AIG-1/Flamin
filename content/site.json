@@ -1,0 +1,42 @@
+{
+  "name": "Flamin Chicken & Gyro",
+  "tagline": "Gyro • Platters • Hot Chicken • Phillies",
+  "logo": "/assets/img/logo.png",
+  "background": "/assets/img/mural.jpg",
+  "phone": "",
+  "address": "3951 W 183rd St",
+  "city": "Hazel Crest, IL 60429",
+  "mapsUrl": "https://maps.google.com/?q=3951+W+183rd+St,+Hazel+Crest,+IL+60429",
+  "instagram": "https://www.instagram.com/flamin_hazelcrest",
+  "halal": true,
+  "announcement": {
+    "show": true,
+    "text": "Now open in Hazel Crest! Order pickup or delivery below.",
+    "link": "/menu.html"
+  },
+  "hours": [
+    { "day": "Sunday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Monday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Tuesday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Wednesday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Thursday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Friday", "open": "11:00", "close": "24:00", "closed": false },
+    { "day": "Saturday", "open": "11:00", "close": "24:00", "closed": false }
+  ],
+  "holidayNotice": "",
+  "orderLinks": [
+    { "label": "DoorDash", "url": "https://www.doordash.com/store/flamin-chicken-&-gyro-hazel-crest-52189324/", "show": true },
+    { "label": "Toast", "url": "https://toast.app/r/flamin-chicken-gyro-3951-183rd-street", "show": true },
+    { "label": "Grubhub", "url": "", "show": true }
+  ],
+  "video": {
+    "title": "Grand Opening",
+    "file": "",
+    "youtubeUrl": "",
+    "poster": "/assets/img/mural.jpg"
+  },
+  "seo": {
+    "title": "Flamin Chicken & Gyro | Hazel Crest, IL — Halal Gyros, Hot Chicken & Platters",
+    "description": "Halal gyros, Nashville hot chicken, wings, platters, Phillies and waffles at 3951 W 183rd St, Hazel Crest, IL. Order online for pickup or delivery."
+  }
+}

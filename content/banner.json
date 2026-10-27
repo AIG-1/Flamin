@@ -1,0 +1,32 @@
+{
+  "slides": [
+    {
+      "headline": "The Monster Platter",
+      "subtext": "Chicken, lamb & steak over rice \u2014 $12.99",
+      "image": "/assets/img/menu/monster-platter.jpg",
+      "itemId": "monster-platter",
+      "show": true
+    },
+    {
+      "headline": "Nashville Hot. For Real.",
+      "subtext": "Nashville Hot Chicken Platter \u2014 $12.99",
+      "image": "/assets/img/menu/nashville-hot-chicken-platter.jpg",
+      "itemId": "nashville-hot-chicken-platter",
+      "show": true
+    },
+    {
+      "headline": "Flamin' Fries",
+      "subtext": "Pick your protein \u2014 $11.99",
+      "image": "/assets/img/menu/flamin-fries.jpg",
+      "itemId": "flamin-fries",
+      "show": true
+    },
+    {
+      "headline": "Waffles & Wings",
+      "subtext": "Waffle with 6 wings \u2014 $15",
+      "image": "/assets/img/menu/waffles.jpg",
+      "itemId": "waffle-w-6-wings",
+      "show": true
+    }
+  ]
+}

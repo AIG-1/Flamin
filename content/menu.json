@@ -1,0 +1,889 @@
+{
+  "categories": [
+    {
+      "name": "Platters",
+      "note": "All platters are served with rice, salad & french fries.",
+      "items": [
+        {
+          "id": "chicken-platter",
+          "name": "Chicken Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/chicken-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "crispy-chicken-platter",
+          "name": "Crispy Chicken Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/crispy-chicken-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "gyro-platter",
+          "name": "Gyro Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/gyro-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "mixed-platter",
+          "name": "Mixed Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/mixed-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "shrimp-platter",
+          "name": "Shrimp Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/shrimp-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$13.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "fish-platter",
+          "name": "Fish Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/fish-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "seafood-platter",
+          "name": "Seafood Platter",
+          "description": "1 pc fish, 6 pc shrimp. Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/seafood-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$15.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "monster-platter",
+          "name": "Monster Platter",
+          "description": "Chicken, lamb, steak. Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/monster-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "steak-platter",
+          "name": "Steak Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/steak-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$13.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "nashville-hot-chicken-platter",
+          "name": "Nashville Hot Chicken Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "/assets/img/menu/nashville-hot-chicken-platter.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [
+            "Spicy"
+          ],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "platters",
+      "show": true
+    },
+    {
+      "name": "Wings",
+      "note": "Bone in or boneless. Sauces: BBQ, Buffalo, Mango Habañero, Lemon Pepper, Garlic Parmesan, Jamaican Jerk, Nashville Hot.",
+      "items": [
+        {
+          "id": "wings",
+          "name": "Wings",
+          "description": "Bone in or boneless, tossed in your choice of sauce.",
+          "image": "/assets/img/menu/wings.jpg",
+          "options": [
+            {
+              "label": "6 pcs",
+              "price": "$9 · $12 w/ fries"
+            },
+            {
+              "label": "9 pcs",
+              "price": "$13 · $16 w/ fries"
+            },
+            {
+              "label": "12 pcs",
+              "price": "$16 · $19 w/ fries"
+            },
+            {
+              "label": "20 pcs",
+              "price": "$26 · $30 w/ fries"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "wings",
+      "show": true
+    },
+    {
+      "name": "Tenders",
+      "note": "Hand battered chicken. Same sauce choices as wings.",
+      "items": [
+        {
+          "id": "hand-battered-tenders",
+          "name": "Hand Battered Tenders",
+          "description": "Hand battered chicken tenders with your choice of sauce.",
+          "image": "/assets/img/menu/tenders.jpg",
+          "options": [
+            {
+              "label": "3 pcs",
+              "price": "$9 · $12 w/ fries"
+            },
+            {
+              "label": "4 pcs",
+              "price": "$12 · $15 w/ fries"
+            },
+            {
+              "label": "6 pcs",
+              "price": "$16 · $19 w/ fries"
+            },
+            {
+              "label": "8 pcs",
+              "price": "$20 · $23 w/ fries"
+            },
+            {
+              "label": "12 pcs",
+              "price": "$26 · $30 w/ fries"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "tenders",
+      "show": true
+    },
+    {
+      "name": "Shrimp",
+      "note": "",
+      "items": [
+        {
+          "id": "fried-shrimp",
+          "name": "Fried Shrimp",
+          "description": "",
+          "image": "/assets/img/menu/shrimp.jpg",
+          "options": [
+            {
+              "label": "6 pcs",
+              "price": "$8 · $11 w/ fries"
+            },
+            {
+              "label": "9 pcs",
+              "price": "$10 · $13 w/ fries"
+            },
+            {
+              "label": "12 pcs",
+              "price": "$12 · $15 w/ fries"
+            },
+            {
+              "label": "20 pcs",
+              "price": "$18 · $21 w/ fries"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "shrimp",
+      "show": true
+    },
+    {
+      "name": "Fish",
+      "note": "",
+      "items": [
+        {
+          "id": "whiting-fish",
+          "name": "Whiting Fish",
+          "description": "",
+          "image": "/assets/img/menu/fish.jpg",
+          "options": [
+            {
+              "label": "2 pcs",
+              "price": "$8 · $11 w/ fries"
+            },
+            {
+              "label": "4 pcs",
+              "price": "$10 · $13 w/ fries"
+            },
+            {
+              "label": "6 pcs",
+              "price": "$12 · $15 w/ fries"
+            },
+            {
+              "label": "8 pcs",
+              "price": "$18 · $21 w/ fries"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "fish",
+      "show": true
+    },
+    {
+      "name": "Skepasti",
+      "note": "Includes fries.",
+      "items": [
+        {
+          "id": "skepasti",
+          "name": "Skepasti",
+          "description": "Includes fries.",
+          "image": "/assets/img/menu/skepasti.jpg",
+          "options": [
+            {
+              "label": "Steak, Chicken, BBQ Chicken, Crispy Chicken or Veggie",
+              "price": "$17.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "skepasti",
+      "show": true
+    },
+    {
+      "name": "Burgers",
+      "note": "Prices being confirmed.",
+      "items": [
+        {
+          "id": "og-smashy-burger",
+          "name": "OG Smashy Burger",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        },
+        {
+          "id": "monster-smash-burger",
+          "name": "Monster Smash Burger",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        },
+        {
+          "id": "nashville-hot-chicken-sandwich",
+          "name": "Nashville Hot Chicken Sandwich",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [
+            "Spicy"
+          ],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        }
+      ],
+      "id": "burgers",
+      "show": true
+    },
+    {
+      "name": "Heroes",
+      "note": "Prices being confirmed.",
+      "items": [
+        {
+          "id": "philly-cheese-steak",
+          "name": "Philly Cheese Steak",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        },
+        {
+          "id": "chicken-cheese-steak",
+          "name": "Chicken Cheese Steak",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        },
+        {
+          "id": "italian-beef",
+          "name": "Italian Beef",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        }
+      ],
+      "id": "heroes",
+      "show": true
+    },
+    {
+      "name": "Gyros",
+      "note": "All gyros are served with lettuce, tomato, onion & tzatziki sauce. Add fries & drink for $3.49.",
+      "items": [
+        {
+          "id": "traditional-gyro",
+          "name": "Traditional Gyro",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "chicken-gyro",
+          "name": "Chicken Gyro",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "mixed-gyro",
+          "name": "Mixed Gyro",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "fish-gyro",
+          "name": "Fish Gyro",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "gyros",
+      "show": true
+    },
+    {
+      "name": "Salad",
+      "note": "Choose your protein. Prices being confirmed.",
+      "items": [
+        {
+          "id": "salad",
+          "name": "Salad",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": false,
+          "orderLinks": []
+        }
+      ],
+      "id": "salad",
+      "show": true
+    },
+    {
+      "name": "Munchies",
+      "note": "",
+      "items": [
+        {
+          "id": "flamin-hot-motzerella-cheese-stick",
+          "name": "Flamin' Hot Motzerella Cheese Stick",
+          "description": "",
+          "image": "/assets/img/menu/flamin-hot-mozzarella-stick.jpg",
+          "options": [
+            {
+              "label": "3 pieces",
+              "price": "$8.99"
+            },
+            {
+              "label": "6 pieces",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [
+            "Spicy"
+          ],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "motzerella-cheese-stick",
+          "name": "Motzerella Cheese Stick",
+          "description": "",
+          "image": "/assets/img/menu/mozzarella-stick.jpg",
+          "options": [
+            {
+              "label": "6 pieces",
+              "price": "$7.00"
+            },
+            {
+              "label": "9 pieces",
+              "price": "$10.00"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "flamin-hot-cheese-balls",
+          "name": "Flamin' Hot Cheese Balls",
+          "description": "",
+          "image": "/assets/img/menu/flamin-hot-cheese-balls.jpg",
+          "options": [
+            {
+              "label": "3 pieces",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [
+            "Spicy"
+          ],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "french-fries",
+          "name": "French Fries",
+          "description": "",
+          "image": "/assets/img/menu/french-fries.jpg",
+          "options": [
+            {
+              "label": "Small",
+              "price": "$4.00"
+            },
+            {
+              "label": "Large",
+              "price": "$6.00"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "cheese-fries",
+          "name": "Cheese Fries",
+          "description": "",
+          "image": "/assets/img/menu/cheese-fries.jpg",
+          "options": [
+            {
+              "label": "Small",
+              "price": "$5.00"
+            },
+            {
+              "label": "Large",
+              "price": "$8.00"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "cajun-corn",
+          "name": "Cajun Corn",
+          "description": "",
+          "image": "/assets/img/menu/cajun-corn.jpg",
+          "options": [
+            {
+              "label": "1 piece",
+              "price": "$3.50"
+            },
+            {
+              "label": "2 pieces",
+              "price": "$6.00"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "onion-rings",
+          "name": "Onion Rings",
+          "description": "",
+          "image": "/assets/img/menu/onion-rings.jpg",
+          "options": [
+            {
+              "label": "Small",
+              "price": "$5.00"
+            },
+            {
+              "label": "Large",
+              "price": "$8.00"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "flamin-fries",
+          "name": "Flamin' Fries",
+          "description": "Pick your protein: Smashburger, Hot Chicken, Regular Chicken or Shrimp.",
+          "image": "/assets/img/menu/flamin-fries.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "munchies",
+      "show": true
+    },
+    {
+      "name": "Waffles",
+      "note": "Toppings: Fruity Pebbles, Cinnamon Toast Crunch, Biscoff Lotus, Oreo, Strawberry, Sprinkles, Chocolate Chips. Drizzles: Chocolate Syrup, Chocolate Syrup, Caramel, Honey.",
+      "items": [
+        {
+          "id": "plain-waffle",
+          "name": "Plain Waffle",
+          "description": "",
+          "image": "/assets/img/menu/waffles.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$7"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "waffle-w-3-tenders",
+          "name": "Waffle w/ 3 Tenders",
+          "description": "",
+          "image": "/assets/img/menu/waffles.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$14"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "waffle-w-4-tenders",
+          "name": "Waffle w/ 4 Tenders",
+          "description": "",
+          "image": "/assets/img/menu/waffles.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$16"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "waffle-w-6-wings",
+          "name": "Waffle w/ 6 Wings",
+          "description": "",
+          "image": "/assets/img/menu/waffles.jpg",
+          "options": [
+            {
+              "label": "Bone in or boneless",
+              "price": "$15"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "waffles-with-ice-cream",
+          "name": "Waffles with Ice Cream",
+          "description": "",
+          "image": "/assets/img/menu/waffles.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$11"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "waffles",
+      "show": true
+    },
+    {
+      "name": "Drinks",
+      "note": "",
+      "items": [
+        {
+          "id": "slushies",
+          "name": "Slushies",
+          "description": "",
+          "image": "/assets/img/menu/slushies.jpg",
+          "options": [
+            {
+              "label": "Blue Raspberry, Strawberry Watermelon, Mango Peach, Cherry Blast, Lemon Lime, Purple Rush",
+              "price": "$6.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "refreshers",
+          "name": "Refreshers",
+          "description": "",
+          "image": "/assets/img/menu/refreshers.jpg",
+          "options": [
+            {
+              "label": "Blue Raspberry Lemonade, Strawberry Lemonade, Mango Peach Lemonade, Green Apple Lemonade, Peach Tea Lemonade, Dragon Fruit Berry Refresher",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "drinks",
+      "show": true
+    }
+  ]
+}
