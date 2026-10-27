@@ -1,9 +1,9 @@
 /* Flamin Chicken & Gyro — renders every page from /content/*.json (edited in /admin) */
 (async function () {
   const get = (p) => fetch(p, { cache: "no-store" }).then((r) => r.json()).catch(() => ({}));
-  const [site, menu, banner, specials, gallery] = await Promise.all([
+  const [site, menu, banner, specials, gallery, reviews] = await Promise.all([
     get("/content/site.json"), get("/content/menu.json"), get("/content/banner.json"),
-    get("/content/specials.json"), get("/content/gallery.json"),
+    get("/content/specials.json"), get("/content/gallery.json"), get("/content/reviews.json"),
   ]);
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -97,8 +97,10 @@
   if (vid) {
     const v = site.video || {};
     const yt = (v.youtubeUrl || "").match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/);
+    const ig = (v.instagramUrl || "").match(/instagram\.com\/(?:[\w.]+\/)?(reel|p)\/([\w-]+)/);
     if (v.file) vid.innerHTML = `<video src="${esc(v.file)}" ${v.poster ? `poster="${esc(v.poster)}"` : ""} controls playsinline preload="metadata"></video>`;
     else if (yt) vid.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt[1]}" title="${esc(v.title)}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+    else if (ig) { vid.classList.add("ig"); vid.innerHTML = `<iframe src="https://www.instagram.com/${ig[1]}/${ig[2]}/embed" title="${esc(v.title)}" loading="lazy" allowfullscreen scrolling="no"></iframe>`; }
     else vid.innerHTML = `<div class="ph" style="background-image:url('${esc(v.poster || "")}')"><b>${esc(v.title || "Video")}</b><span>Video coming soon</span></div>`;
     $("#video-title") && ($("#video-title").textContent = v.title || "");
     $("#halal-badge") && (site.halal ? null : $("#halal-badge").remove());
@@ -112,8 +114,37 @@
     if (!live.length) sp.closest("section").remove();
     else sp.innerHTML = live.map((s) => `<div class="special"><h3>${esc(s.title)}</h3><p>${esc(s.text)}</p>${s.itemId ? `<p style="margin-top:12px"><a class="btn" href="/menu.html#${esc(s.itemId)}">See it</a></p>` : ""}</div>`).join("");
   }
-  const gal = $("#gallery");
-  if (gal) gal.innerHTML = (gallery.items || []).map((g) => `<figure>${g.type === "video" ? `<video src="${esc(g.src)}" controls playsinline preload="metadata"></video>` : `<img src="${esc(g.src)}" alt="${esc(g.caption)}" loading="lazy">`}${g.caption ? `<figcaption>${esc(g.caption)}</figcaption>` : ""}</figure>`).join("");
+  /* ---------- Gallery (newest first) ---------- */
+  const igMatch = (u) => (u || "").match(/instagram\.com\/(?:[\w.]+\/)?(reel|p)\/([\w-]+)/);
+  const media = (g, big) => {
+    const ig = g.type === "instagram" && igMatch(g.instagram || g.src);
+    const cap = g.caption ? `<figcaption>${esc(g.caption)}${g.date ? ` <span class="date">${esc(new Date(g.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</span>` : ""}</figcaption>` : "";
+    if (ig) return `<figure class="ig${big ? " big" : ""}"><iframe src="https://www.instagram.com/${ig[1]}/${ig[2]}/embed" title="${esc(g.caption || "Instagram post")}" loading="lazy" scrolling="no" allowfullscreen></iframe>${cap}</figure>`;
+    if (g.type === "video") return `<figure${big ? ' class="big"' : ""}><video src="${esc(g.src)}" controls playsinline preload="metadata"></video>${cap}</figure>`;
+    return `<figure><img src="${esc(g.src)}" alt="${esc(g.caption)}" loading="lazy">${cap}</figure>`;
+  };
+  const gItems = (gallery.items || []).filter((g) => g.show !== false && (g.src || g.instagram)).sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
+  const latestVid = gItems.find((g) => g.type === "video" || g.type === "instagram");
+  const gTop = $("#gallery-top"), gal = $("#gallery");
+  if (gTop && latestVid) gTop.innerHTML = `<div class="latest-label">Latest video</div>` + media(latestVid, true);
+  if (gal) {
+    const rest = gTop ? gItems.filter((g) => g !== latestVid) : gItems;
+    const lim = +gal.dataset.limit || rest.length;
+    gal.innerHTML = rest.slice(0, lim).map((g) => media(g)).join("");
+  }
+
+  /* ---------- Reviews ---------- */
+  const rv = $("#reviews-list");
+  if (rv) {
+    const list = (reviews.reviews || []).filter((r) => r.show !== false);
+    const stars = (n) => { n = Math.max(0, Math.min(5, +n || 0)); return `<span class="stars" aria-label="${n} out of 5 stars">${"★".repeat(n)}<span>${"★".repeat(5 - n)}</span></span>`; };
+    rv.innerHTML = list.length ? list.map((r) => `<div class="review">${stars(r.rating)}<p>${esc(r.text)}</p><div class="who"><b>${esc(r.name)}</b>${r.location ? ` · ${esc(r.location)}` : ""}</div></div>`).join("")
+      : `<div class="review empty"><p>Be the first to review us. Tell us what you ordered below.</p></div>`;
+    const cr = $("#creators");
+    const cl = (reviews.creators || []).filter((c) => c.show !== false && igMatch(c.instagram));
+    if (cr && cl.length) cr.innerHTML = cl.map((c) => { const m = igMatch(c.instagram); return `<figure class="ig"><iframe src="https://www.instagram.com/${m[1]}/${m[2]}/embed" title="${esc(c.name)} on Instagram" loading="lazy" scrolling="no"></iframe><figcaption>${esc(c.name)}</figcaption></figure>`; }).join("");
+    else if (cr) cr.closest(".creators-wrap")?.remove();
+  }
   const hrs = $("#hours");
   if (hrs) {
     const d = nowCT().day;

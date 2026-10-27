@@ -1,6 +1,294 @@
 {
   "categories": [
     {
+      "name": "Burgers",
+      "note": "Toppings: Lettuce, Tomato, Onion, Pickles, Grilled Onion, Jalapeño, Giardiniera. Sauces: Flamin Sauce, Ketchup, BBQ, Mustard, Hot Sauce, Mild Sauce, Ranch, Cheese Sauce, Mayonnaise. Add fries & drink for only $3.49.",
+      "items": [
+        {
+          "id": "og-smash-burger",
+          "name": "OG Smash Burger",
+          "description": "",
+          "image": "/assets/img/menu/og-smash-burger.jpg",
+          "options": [
+            {
+              "label": "Double",
+              "price": "$9.99"
+            },
+            {
+              "label": "Triple",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "monster-smash-burger",
+          "name": "Monster Smash Burger",
+          "description": "",
+          "image": "/assets/img/menu/monster-smash-burger.jpg",
+          "options": [
+            {
+              "label": "Double",
+              "price": "$11.99"
+            },
+            {
+              "label": "Triple",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "nashville-hot-chicken-sandwich",
+          "name": "Nashville Hot Chicken Sandwich",
+          "description": "",
+          "image": "/assets/img/menu/nashville-hot-chicken-sandwich.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [
+            "Spicy"
+          ],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "burgers",
+      "show": true
+    },
+    {
+      "name": "Heroes",
+      "note": "Add fries & drink for only $3.49.",
+      "items": [
+        {
+          "id": "dirty-dog",
+          "name": "Dirty Dog",
+          "description": "Deep-fried hot dog piled with Philly cheesesteak.",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": ""
+            }
+          ],
+          "tags": [
+            "New"
+          ],
+          "soldOut": false,
+          "featured": true,
+          "priceConfirmed": false,
+          "orderLinks": []
+        },
+        {
+          "id": "philly-cheese-steak",
+          "name": "Philly Cheese Steak",
+          "description": "",
+          "image": "/assets/img/menu/philly-cheese-steak.jpg",
+          "options": [
+            {
+              "label": "Regular",
+              "price": "$11.99"
+            },
+            {
+              "label": "Large",
+              "price": "$15.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "chicken-cheese-steak",
+          "name": "Chicken Cheese Steak",
+          "description": "",
+          "image": "/assets/img/menu/chicken-cheese-steak.jpg",
+          "options": [
+            {
+              "label": "Regular",
+              "price": "$10.99"
+            },
+            {
+              "label": "Large",
+              "price": "$14.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "italian-beef",
+          "name": "Italian Beef",
+          "description": "",
+          "image": "/assets/img/menu/italian-beef.jpg",
+          "options": [
+            {
+              "label": "Regular",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "heroes",
+      "show": true
+    },
+    {
+      "name": "Gyros",
+      "note": "All gyros are served with lettuce, tomato, onion & tzatziki sauce. Add fries & drink +$3.50.",
+      "items": [
+        {
+          "id": "traditional-gyro",
+          "name": "Traditional Gyro",
+          "description": "",
+          "image": "/assets/img/menu/traditional-gyro.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "chicken-gyro",
+          "name": "Chicken Gyro",
+          "description": "",
+          "image": "/assets/img/menu/chicken-gyro.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "mixed-gyro",
+          "name": "Mixed Gyro",
+          "description": "",
+          "image": "/assets/img/menu/mixed-gyro.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "fish-gyro",
+          "name": "Fish Gyro",
+          "description": "",
+          "image": "/assets/img/menu/fish-gyro.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "gyros",
+      "show": true
+    },
+    {
+      "name": "Salad",
+      "note": "Choose your protein.",
+      "items": [
+        {
+          "id": "salad",
+          "name": "Salad",
+          "description": "Choose your protein.",
+          "image": "/assets/img/menu/salad.jpg",
+          "options": [
+            {
+              "label": "Grilled Chicken",
+              "price": "$11.99"
+            },
+            {
+              "label": "Chicken Gyro",
+              "price": "$10.99"
+            },
+            {
+              "label": "Crispy Chicken",
+              "price": "$11.99"
+            },
+            {
+              "label": "Chicken & Lamb",
+              "price": "$11.99"
+            },
+            {
+              "label": "Lamb",
+              "price": "$11.99"
+            },
+            {
+              "label": "Shrimp",
+              "price": "$11.99"
+            },
+            {
+              "label": "Fish",
+              "price": "$12.99"
+            },
+            {
+              "label": "Garden",
+              "price": "$7.99"
+            },
+            {
+              "label": "Falafel",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ],
+      "id": "salad",
+      "show": true
+    },
+    {
       "name": "Platters",
       "note": "All platters are served with rice, salad & french fries.",
       "items": [
@@ -355,227 +643,6 @@
         }
       ],
       "id": "skepasti",
-      "show": true
-    },
-    {
-      "name": "Burgers",
-      "note": "Prices being confirmed.",
-      "items": [
-        {
-          "id": "og-smashy-burger",
-          "name": "OG Smashy Burger",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        },
-        {
-          "id": "monster-smash-burger",
-          "name": "Monster Smash Burger",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        },
-        {
-          "id": "nashville-hot-chicken-sandwich",
-          "name": "Nashville Hot Chicken Sandwich",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [
-            "Spicy"
-          ],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        }
-      ],
-      "id": "burgers",
-      "show": true
-    },
-    {
-      "name": "Heroes",
-      "note": "Prices being confirmed.",
-      "items": [
-        {
-          "id": "philly-cheese-steak",
-          "name": "Philly Cheese Steak",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        },
-        {
-          "id": "chicken-cheese-steak",
-          "name": "Chicken Cheese Steak",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        },
-        {
-          "id": "italian-beef",
-          "name": "Italian Beef",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        }
-      ],
-      "id": "heroes",
-      "show": true
-    },
-    {
-      "name": "Gyros",
-      "note": "All gyros are served with lettuce, tomato, onion & tzatziki sauce. Add fries & drink for $3.49.",
-      "items": [
-        {
-          "id": "traditional-gyro",
-          "name": "Traditional Gyro",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": "$10"
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": true,
-          "orderLinks": []
-        },
-        {
-          "id": "chicken-gyro",
-          "name": "Chicken Gyro",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": "$10"
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": true,
-          "orderLinks": []
-        },
-        {
-          "id": "mixed-gyro",
-          "name": "Mixed Gyro",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": "$10"
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": true,
-          "orderLinks": []
-        },
-        {
-          "id": "fish-gyro",
-          "name": "Fish Gyro",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": "$10"
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": true,
-          "orderLinks": []
-        }
-      ],
-      "id": "gyros",
-      "show": true
-    },
-    {
-      "name": "Salad",
-      "note": "Choose your protein. Prices being confirmed.",
-      "items": [
-        {
-          "id": "salad",
-          "name": "Salad",
-          "description": "",
-          "image": "",
-          "options": [
-            {
-              "label": "",
-              "price": ""
-            }
-          ],
-          "tags": [],
-          "soldOut": false,
-          "featured": false,
-          "priceConfirmed": false,
-          "orderLinks": []
-        }
-      ],
-      "id": "salad",
       "show": true
     },
     {

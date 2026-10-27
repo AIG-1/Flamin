@@ -58,6 +58,7 @@ collections:
               - { label: "Title", name: title, widget: string }
               - { label: "Upload Video (MP4, keep under 20 MB)", name: file, widget: file, required: false }
               - { label: "OR YouTube Link", name: youtubeUrl, widget: string, required: false }
+              - { label: "OR Instagram Reel Link", name: instagramUrl, widget: string, required: false, hint: "Paste a reel URL, e.g. https://www.instagram.com/reel/XXXX/" }
               - { label: "Cover Image", name: poster, widget: image, required: false }
           - label: "SEO"
             name: seo
@@ -162,6 +163,38 @@ collections:
             widget: list
             summary: "{{fields.caption}}"
             fields:
-              - { label: "Type", name: type, widget: select, options: ["image", "video"], default: "image" }
-              - { label: "File", name: src, widget: file }
+              - { label: "Type", name: type, widget: select, options: ["image", "video", "instagram"], default: "image" }
+              - { label: "Upload Photo or Video", name: src, widget: file, required: false }
+              - { label: "Instagram Post/Reel Link (when Type = instagram)", name: instagram, widget: string, required: false }
               - { label: "Caption", name: caption, widget: string, required: false }
+              - { label: "Date posted (newest video shows at the top of the Gallery page)", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+              - { label: "Show", name: show, widget: boolean, default: true }
+
+  - name: reviews
+    label: "Reviews"
+    files:
+      - name: reviews
+        label: "Customer Reviews"
+        file: "content/reviews.json"
+        fields:
+          - { label: "Intro line", name: intro, widget: string, required: false }
+          - label: "Reviews (approved only, copy from the Review form inbox in Netlify)"
+            name: reviews
+            widget: list
+            required: false
+            summary: "{{fields.rating}}★ {{fields.name}}"
+            fields:
+              - { label: "First name", name: name, widget: string }
+              - { label: "City", name: location, widget: string, required: false }
+              - { label: "Rating", name: rating, widget: select, options: ["5", "4", "3", "2", "1"], default: "5" }
+              - { label: "Review", name: text, widget: text }
+              - { label: "Show", name: show, widget: boolean, default: true }
+          - label: "Instagram creator videos (As seen on Instagram)"
+            name: creators
+            widget: list
+            required: false
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Creator name", name: name, widget: string }
+              - { label: "Reel link", name: instagram, widget: string }
+              - { label: "Show", name: show, widget: boolean, default: true }

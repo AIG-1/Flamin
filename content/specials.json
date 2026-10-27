@@ -1,12 +1,21 @@
 {
   "specials": [
     {
-      "title": "Grand Opening Special",
-      "text": "Ask about today's deal at the counter.",
+      "title": "Bears Game Day: 50¢ Wings",
+      "text": "Bear down and wing up. 50¢ wings every Bears game day.",
       "image": "",
-      "itemId": "",
-      "start": "2026-10-01",
-      "end": "2026-12-31",
+      "itemId": "wings",
+      "start": "",
+      "end": "",
+      "show": true
+    },
+    {
+      "title": "New: The Dirty Dog",
+      "text": "A deep-fried hot dog loaded with Philly cheesesteak. Ask for it at the counter.",
+      "image": "",
+      "itemId": "dirty-dog",
+      "start": "2026-10-22",
+      "end": "",
       "show": true
     }
   ]

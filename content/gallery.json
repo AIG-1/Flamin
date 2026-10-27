@@ -1,34 +1,132 @@
 {
   "items": [
     {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/Dezt6uLBn6j/",
+      "src": "",
+      "caption": "Introducing the Dirty Dog",
+      "date": "2026-10-22",
+      "show": true
+    },
+    {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/DehNHCKhVd4/",
+      "src": "",
+      "caption": "The flavor speaks for itself",
+      "date": "2026-10-15",
+      "show": true
+    },
+    {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/DePSA-nhGKe/",
+      "src": "",
+      "caption": "Bears game day: 50¢ wings",
+      "date": "2026-10-08",
+      "show": true
+    },
+    {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/Dd_uwVVBDF2/",
+      "src": "",
+      "caption": "Loaded platters. Loaded gyros.",
+      "date": "2026-10-02",
+      "show": true
+    },
+    {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/Ddelv35hymD/",
+      "src": "",
+      "caption": "Grand opening recap",
+      "date": "2026-09-19",
+      "show": true
+    },
+    {
+      "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/DdJoZPTRAEh/",
+      "src": "",
+      "caption": "Grand opening announcement",
+      "date": "2026-09-11",
+      "show": true
+    },
+    {
       "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/monster-platter.jpg",
-      "caption": "Monster Platter"
+      "caption": "Monster Platter",
+      "date": "2026-09-12",
+      "show": true
     },
     {
       "type": "image",
+      "instagram": "",
+      "src": "/assets/img/menu/og-smash-burger.jpg",
+      "caption": "OG Smash Burger",
+      "date": "2026-09-12",
+      "show": true
+    },
+    {
+      "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/wings.jpg",
-      "caption": "Wings"
+      "caption": "Wings",
+      "date": "2026-09-12",
+      "show": true
     },
     {
       "type": "image",
+      "instagram": "",
+      "src": "/assets/img/menu/philly-cheese-steak.jpg",
+      "caption": "Philly Cheese Steak",
+      "date": "2026-09-12",
+      "show": true
+    },
+    {
+      "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/flamin-fries.jpg",
-      "caption": "Flamin' Fries"
+      "caption": "Flamin' Fries",
+      "date": "2026-09-12",
+      "show": true
     },
     {
       "type": "image",
+      "instagram": "",
+      "src": "/assets/img/menu/traditional-gyro.jpg",
+      "caption": "Traditional Gyro",
+      "date": "2026-09-12",
+      "show": true
+    },
+    {
+      "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/waffles.jpg",
-      "caption": "Waffles"
+      "caption": "Waffles",
+      "date": "2026-09-12",
+      "show": true
     },
     {
       "type": "image",
+      "instagram": "",
+      "src": "/assets/img/menu/salad.jpg",
+      "caption": "Salad",
+      "date": "2026-09-12",
+      "show": true
+    },
+    {
+      "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/flamin-hot-cheese-balls.jpg",
-      "caption": "Flamin' Hot Cheese Balls"
+      "caption": "Flamin' Hot Cheese Balls",
+      "date": "2026-09-12",
+      "show": true
     },
     {
       "type": "image",
+      "instagram": "",
       "src": "/assets/img/menu/slushies.jpg",
-      "caption": "Slushies"
+      "caption": "Slushies",
+      "date": "2026-09-12",
+      "show": true
     }
   ]
 }

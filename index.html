@@ -20,7 +20,7 @@
   <button class="menu-toggle" aria-label="Open menu">&#9776;</button>
   <nav>
     <a href="/" class="on">Home</a><a href="/menu.html" class="">Menu</a>
-    <a href="/#order">Order</a><a href="/#catering">Catering</a><a href="/#visit">Visit</a>
+    <a href="/gallery.html" class="">Gallery</a><a href="/#reviews">Reviews</a><a href="/#order">Order</a><a href="/#catering">Catering</a><a href="/#visit">Visit</a>
   </nav>
 </div></header>
 
@@ -52,7 +52,28 @@
 
 <section><h2 class="h">Today's <span>specials</span></h2><div class="specials" id="specials"></div></section>
 
-<section><h2 class="h">Photos &amp; <span>videos</span></h2><div class="gallery" id="gallery"></div></section>
+<section><h2 class="h">Photos &amp; <span>videos</span></h2><div class="gallery" id="gallery" data-limit="6"></div>
+  <p style="margin-top:8px"><a class="btn ghost" href="/gallery.html">Open the gallery</a></p></section>
+
+<section id="reviews">
+  <h2 class="h">What people are <span>saying</span></h2>
+  <div class="reviews" id="reviews-list"></div>
+  <div class="creators-wrap"><h3 class="h" style="font-size:34px;margin-top:36px">As seen on <span>Instagram</span></h3><div class="gallery creators" id="creators"></div></div>
+  <div class="panel" style="margin-top:28px">
+    <h3 class="h" style="font-size:34px">Leave a <span>review</span></h3>
+    <p class="sub">Reviews are read by our team before they're posted.</p>
+    <form class="cater" name="review" method="POST" data-netlify="true" netlify-honeypot="company" action="/thanks.html">
+      <input type="hidden" name="form-name" value="review"><p hidden><label>Company <input name="company"></label></p>
+      <label>First name<input name="name" required autocomplete="given-name"></label>
+      <label>City<input name="location" placeholder="e.g. Hazel Crest, IL"></label>
+      <label>Rating<select name="rating" required><option value="5">5 stars</option><option value="4">4 stars</option><option value="3">3 stars</option><option value="2">2 stars</option><option value="1">1 star</option></select></label>
+      <label>What did you order?<input name="ordered"></label>
+      <label class="full">Your review<textarea name="review" rows="4" required></textarea></label>
+      <label class="full" style="flex-direction:row;display:flex;gap:8px;align-items:center;text-transform:none;letter-spacing:0"><input type="checkbox" name="consent" value="yes" required style="width:auto"> I agree Flamin Chicken &amp; Gyro may post my review with my first name and city.</label>
+      <button class="btn full" type="submit">Send review</button>
+    </form>
+  </div>
+</section>
 
 <section id="visit" class="visit">
   <div class="panel">
