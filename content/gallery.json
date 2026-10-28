@@ -2,6 +2,14 @@
   "items": [
     {
       "type": "instagram",
+      "instagram": "https://www.instagram.com/reel/Ddelv35hymD/",
+      "src": "/assets/uploads/grand-opening.mp4",
+      "caption": "Grand opening recap",
+      "date": "2026-09-19",
+      "show": true
+    },
+    {
+      "type": "instagram",
       "instagram": "https://www.instagram.com/reel/Dezt6uLBn6j/",
       "src": "",
       "caption": "Introducing the Dirty Dog",
@@ -30,14 +38,6 @@
       "src": "",
       "caption": "Loaded platters. Loaded gyros.",
       "date": "2026-10-02",
-      "show": true
-    },
-    {
-      "type": "instagram",
-      "instagram": "https://www.instagram.com/reel/Ddelv35hymD/",
-      "src": "",
-      "caption": "Grand opening recap",
-      "date": "2026-09-19",
       "show": true
     },
     {
