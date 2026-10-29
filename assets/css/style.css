@@ -186,3 +186,6 @@ section[id]{scroll-margin-top:90px}
 .nav .wordmark{display:flex;flex-direction:column;line-height:.9}
 .nav .wordmark b{font-family:var(--display);font-weight:400;font-size:30px;letter-spacing:1.5px;color:#fff}
 .nav .wordmark small{font-family:var(--body);font-size:12px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-top:3px}
+/* Gallery follows admin order, left to right */
+.gallery{display:grid;columns:auto;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;align-items:start}
+.gallery figure{margin:0}
