@@ -226,6 +226,23 @@
               "price": "$10"
             }
           ]
+        },
+        {
+          "id": "falafel-gyro",
+          "name": "Falafel Gyro",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$10"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
         }
       ],
       "id": "gyros",
@@ -463,6 +480,40 @@
               "price": "$12.99"
             }
           ]
+        },
+        {
+          "id": "build-your-own-platter",
+          "name": "Build Your Own Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/3/item-1400000009757684293_1793229015.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$11.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "falafel-platter",
+          "name": "Falafel Platter",
+          "description": "Served with rice, salad & french fries.",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/6/item-1400000009794518316_1793229048.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$12.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
         }
       ],
       "id": "platters",
@@ -909,6 +960,250 @@
       ],
       "id": "waffles",
       "show": true
+    },
+    {
+      "id": "donut-bites",
+      "name": "Donut Bites",
+      "note": "",
+      "show": true,
+      "items": [
+        {
+          "id": "original-donuts",
+          "name": "Original Donuts",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/1/item-1400000007593415221_1793226654.png",
+          "options": [
+            {
+              "label": "3 pieces",
+              "price": "$3.99"
+            },
+            {
+              "label": "6 pieces",
+              "price": "$5.99"
+            },
+            {
+              "label": "12 pieces",
+              "price": "$9.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "strawberry-donuts",
+          "name": "Strawberry Donuts",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "3 pieces",
+              "price": "$3.99"
+            },
+            {
+              "label": "6 pieces",
+              "price": "$5.99"
+            },
+            {
+              "label": "12 pieces",
+              "price": "$9.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "chocolate-donuts",
+          "name": "Chocolate Donuts",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "3 pieces",
+              "price": "$3.99"
+            },
+            {
+              "label": "6 pieces",
+              "price": "$5.99"
+            },
+            {
+              "label": "12 pieces",
+              "price": "$9.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ]
+    },
+    {
+      "id": "cakes",
+      "name": "Cakes",
+      "note": "",
+      "show": true,
+      "items": [
+        {
+          "id": "original-carmel-cake",
+          "name": "Original Carmel Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/3/item-1400000007593415263_1793226763.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "oreo-milk-cake",
+          "name": "OREO Milk Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/5/item-1400000007593415265_1793226869.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "red-velvet-cake",
+          "name": "Red Velvet Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/7/item-1400000007593415267_1793226891.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "fruity-pebble-cake",
+          "name": "Fruity Pebble Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/9/item-1400000007593415269_1793226972.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "cinnamon-toast-crunch-cake",
+          "name": "Cinnamon Toast Crunch Cake",
+          "description": "",
+          "image": "",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "chocolate-milk-cake",
+          "name": "Chocolate Milk Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/4/item-1400000009138784454_1793226992.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "pistachio-milk-cake",
+          "name": "Pistachio Milk Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/6/item-1400000009138784456_1793227021.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "biscoff-lotus-cake",
+          "name": "Biscoff Lotus Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/7/item-1400000009736585907_1793227048.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        },
+        {
+          "id": "strawberry-milk-cake",
+          "name": "Strawberry Milk Cake",
+          "description": "",
+          "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/2/item-1400000009925462332_1793227098.jpg",
+          "options": [
+            {
+              "label": "",
+              "price": "$5.99"
+            }
+          ],
+          "tags": [],
+          "soldOut": false,
+          "featured": false,
+          "priceConfirmed": true,
+          "orderLinks": []
+        }
+      ]
     },
     {
       "name": "Drinks",
