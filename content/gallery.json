@@ -2,6 +2,12 @@
   "items": [
     {
       "type": "instagram",
+      "show": true,
+      "src": "/assets/uploads/flamin-.mp4",
+      "caption": "FLAMIN! Check us out!"
+    },
+    {
+      "type": "instagram",
       "instagram": "https://www.instagram.com/reel/Dezt6uLBn6j/",
       "src": "/assets/uploads/screenshot-2026-10-29-075454.png",
       "caption": "Introducing the Dirty Dog",
@@ -127,12 +133,6 @@
       "caption": "Slushies",
       "date": "2026-09-12",
       "show": true
-    },
-    {
-      "type": "instagram",
-      "show": true,
-      "src": "/assets/uploads/flamin-.mp4",
-      "caption": "FLAMIN! Check us out!"
     }
   ]
 }
