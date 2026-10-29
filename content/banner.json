@@ -2,29 +2,29 @@
   "slides": [
     {
       "headline": "The Monster Platter",
-      "subtext": "Chicken, lamb & steak over rice \u2014 $12.99",
-      "image": "/assets/img/menu/monster-platter.jpg",
+      "subtext": "Chicken, lamb & steak over rice — $12.99",
+      "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/6/item-1400000007593415626_1793228920.jpg",
       "itemId": "monster-platter",
       "show": true
     },
     {
       "headline": "Nashville Hot. For Real.",
-      "subtext": "Nashville Hot Chicken Platter \u2014 $12.99",
-      "image": "/assets/img/menu/nashville-hot-chicken-platter.jpg",
+      "subtext": "Nashville Hot Chicken Platter — $12.99",
+      "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/0/item-1400000007593415630_1793228983.jpg",
       "itemId": "nashville-hot-chicken-platter",
       "show": true
     },
     {
       "headline": "Flamin' Fries",
-      "subtext": "Pick your protein \u2014 $11.99",
+      "subtext": "Pick your protein — $11.99",
       "image": "/assets/img/menu/flamin-fries.jpg",
       "itemId": "flamin-fries",
       "show": true
     },
     {
       "headline": "Waffles & Wings",
-      "subtext": "Waffle with 6 wings \u2014 $15",
-      "image": "/assets/img/menu/waffles.jpg",
+      "subtext": "Waffle with 6 wings — $15",
+      "image": "https://s3.amazonaws.com/toasttab/restaurants/restaurant-348444000000000000/menu/items/8/item-1400000007593415698_1793230122.png",
       "itemId": "waffle-w-6-wings",
       "show": true
     }
