@@ -163,8 +163,8 @@ collections:
             widget: list
             summary: "{{fields.caption}}"
             fields:
-              - { label: "Type", name: type, widget: select, options: ["image", "video", "instagram"], default: "image" }
-              - { label: "Upload Photo or Video", name: src, widget: file, required: false }
+              - { label: "Type (optional, the site detects it automatically)", name: type, widget: select, options: ["image", "video", "instagram"], required: false }
+              - { label: "Upload Photo or Video (MP4 under 20 MB). If filled, this is shown instead of the Instagram link", name: src, widget: file, required: false }
               - { label: "Instagram Post/Reel Link (when Type = instagram)", name: instagram, widget: string, required: false }
               - { label: "Caption", name: caption, widget: string, required: false }
               - { label: "Date posted (shown under the caption)", name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }

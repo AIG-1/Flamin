@@ -116,15 +116,23 @@
   }
   /* ---------- Gallery (newest first) ---------- */
   const igMatch = (u) => (u || "").match(/instagram\.com\/(?:[\w.]+\/)?(reel|p)\/([\w-]+)/);
+  // Auto-detect what each gallery item is: an uploaded file wins; otherwise the Instagram link.
+  const kindOf = (g) => {
+    const f = (g.src || "").trim();
+    if (/\.(mp4|webm|mov|m4v)(\?|$)/i.test(f)) return "video";
+    if (f && !igMatch(f)) return "image";
+    if (igMatch(g.instagram) || igMatch(f)) return "instagram";
+    return "";
+  };
   const media = (g, big) => {
-    const ig = g.type === "instagram" && igMatch(g.instagram || g.src);
+    const kind = kindOf(g);
     const cap = g.caption ? `<figcaption>${esc(g.caption)}${g.date ? ` <span class="date">${esc(new Date(g.date + "T12:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</span>` : ""}</figcaption>` : "";
-    if (ig) return `<figure class="ig${big ? " big" : ""}"><iframe src="https://www.instagram.com/${ig[1]}/${ig[2]}/embed" title="${esc(g.caption || "Instagram post")}" loading="lazy" scrolling="no" allowfullscreen></iframe>${cap}</figure>`;
-    if (g.type === "video") return `<figure${big ? ' class="big"' : ""}><video src="${esc(g.src)}" controls playsinline preload="metadata"></video>${cap}</figure>`;
+    if (kind === "instagram") { const ig = igMatch(g.instagram) || igMatch(g.src); return `<figure class="ig${big ? " big" : ""}"><iframe src="https://www.instagram.com/${ig[1]}/${ig[2]}/embed" title="${esc(g.caption || "Instagram post")}" loading="lazy" scrolling="no" allowfullscreen></iframe>${cap}</figure>`; }
+    if (kind === "video") return `<figure${big ? ' class="big"' : ""}><video src="${esc(g.src)}" controls playsinline preload="metadata"></video>${cap}</figure>`;
     return `<figure><img src="${esc(g.src)}" alt="${esc(g.caption)}" loading="lazy">${cap}</figure>`;
   };
-  const gItems = (gallery.items || []).filter((g) => g.show !== false && (g.src || g.instagram)); // keeps the exact order set in admin
-  const latestVid = gItems.find((g) => g.type === "video" || g.type === "instagram");
+  const gItems = (gallery.items || []).filter((g) => g.show !== false && kindOf(g)); // keeps the exact order set in admin
+  const latestVid = gItems.find((g) => kindOf(g) !== "image");
   const gTop = $("#gallery-top"), gal = $("#gallery");
   if (gTop && latestVid) gTop.innerHTML = `<div class="latest-label">Featured video</div>` + media(latestVid, true);
   if (gal) {
